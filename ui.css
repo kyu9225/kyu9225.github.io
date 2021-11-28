@@ -1,0 +1,31 @@
+/*
+#container{width:100%; height:100%; position:relative; max-width: 1200px; margin: 0 auto;}
+#container .content{width: 25%; height: 100%; position: absolute;}
+#container #menu1{left: 0%; background: url(../images/content_bg1.png) repeat;}
+#container #menu2{left:25%; background: url(../images/content_bg2.png) repeat;}
+#container #menu3{left:50%; background: url(../images/content_bg3.png) repeat;}
+#container #menu4{left:75%; background: url(../images/content_bg4.png) repeat;}
+*/
+@charset "utf-8";
+header img {
+  width: 100%;
+  height: 70%px;
+  object-fit: cover;
+}
+#container img {
+  width: 90%;
+  height: 50%;
+  object-fit: cover;
+}
+h3{margin-left: 5px; margin-right:  5px; color: blue;}
+#sites {
+    text-align: center;
+}
+#container{width: 100% height: 100%;}
+#container .content{width: 25%; height: 100%; position: absolute;}
+#container #menu1{left: 0%; background: #ffffcc; repeat;}
+#container #menu2{left: 25%; background: #ffe5cc; repeat;}
+#container #menu3{left: 50%; background: #ffffcc; repeat;}
+#container #menu4{left: 75%; background: #ffe5cc; repeat;}
+
+.section {width: 70}
